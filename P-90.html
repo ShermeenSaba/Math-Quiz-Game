@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Math Quiz Game</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="game.css">
+</head>
+
+<body
+    style="background-image: url(https://t3.ftcdn.net/jpg/02/66/34/70/360_F_266347082_qnZLppWcnm5a4OA5cGNE1amPi01lpEmV.jpg);">
+    <div id="h">
+        <h4 style="font-size: 30px; color: rgb(255, 255, 255); font-family: Georgia;" id="player1_name"></h4> <span
+            id="player1_score" style="font-size: 30px; color: rgb(255, 255, 255); font-family: Georgia;"></span>
+        <br>
+        <h4 style="font-size: 30px; color: rgb(255, 255, 255); font-family: Georgia;" id="player2_name"></h4> <span
+            id="player2_score" style="font-size: 30px; color: rgb(255, 255, 255); font-family: Georgia;"></span>
+    </div>
+    <div class="container">
+        <center>
+            <h2
+                style="border-color: rgb(255, 0, 85); background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-size: 50px; font-family: Georgia; border-style: groove; border-width: 10px; font-variant: small-caps;">
+                The Math Quiz Game
+            </h2>
+            <div id="j">
+                <h3 style="color: rgb(255, 255, 255); font-family: Georgia;" id="player1_question"></h3>
+                <h3 style="color: rgb(255, 255, 255); font-family: Georgia;" id="player2_answer"></h3>
+            </div>
+            <br><br>
+            <div id="output" class="col-lg-6"></div>
+            <br><br>
+            <br>
+            <label style="color: white; font-size: 40px; font-family: cursive; font-variant: small-caps;">Enter 2
+                Numbers:
+            </label>
+            <br><br><br>
+            <label
+                style="text-align: center; color: rgb(255, 255, 255); font-size: 10px; font-family: Georgia; font-weight: bold; font-size: 20px;">Number
+                1
+            </label>
+            <input
+                style="border-style: groove; border-color: rgb(255, 0, 85); border-width: 6px; font-size: 30px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"
+                type="number" id="n1">
+            <br><br><br>
+
+            <label
+                style="text-align: center; color: rgb(255, 255, 255); font-size: 10px; font-family: Georgia; font-weight: bold; font-size: 20px;">Number
+                2
+            </label>
+            <input
+                style="border-style: groove; border-color: rgb(255, 0, 85); border-width: 6px; font-size: 30px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);"
+                type="number" id="n2">
+            <br><br><br>
+            <button
+                style="position: relative;  height: 50px; width: 120px; color: rgb(0, 0, 0); background: rgb(255, 255, 255); cursor: pointer; border-radius: 35px; font-size: 18px; font-family: 'Raleway', sans-serif; font-size: 25px; width: 30%; font-style: italic; font-family: Georgia; font-weight: bold; border-style: groove; border-color: rgb(255, 0, 85); border-width: 6px;"
+                id="button2" onclick="send()">Calculate</button>
+        </center>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="P-90.js"></script>
+</body>
+
+</html>
